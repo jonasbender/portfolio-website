@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    --text-color1: #F4F4F4;
+    --bkg-color: #262626;
+    --text-color2: #8D8D8D;
+    --highlight-color: #B0CCFF;
+    --scroll-bkg: #fafafa;
+    --scroll-acc: #c1c1c1;
+    --scroll-hov: #7d7d7d;
+  }
+  
+  /* body.dark-theme {
+    --text-color: #eee;
+    --bkg-color: #121212;
+    --slider-color: #636363;
+    --slider-acc-color: #d0d0d0;
+    --scroll-bkg: #636363;
+    --scroll-acc: #d0d0d0;
+    --scroll-hov: #7d7d7d;
+  } */
+    
+  body {
+    background: var(--bkg-color);
+    
+  }
