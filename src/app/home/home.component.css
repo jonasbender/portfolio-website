@@ -1,0 +1,9 @@
+h1 {
+    color: var(--highlight-color);
+    font-family: var(--font-sans);
+}
+
+div {
+    color: var(--text-color2);
+    font-family: var(--font-mono);
+}

@@ -7,6 +7,9 @@ body {
     --scroll-bkg: #fafafa;
     --scroll-acc: #c1c1c1;
     --scroll-hov: #7d7d7d;
+
+    --font-mono: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+    --font-sans: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif; 
   }
   
   /* body.dark-theme {
