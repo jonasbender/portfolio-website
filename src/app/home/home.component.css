@@ -1,9 +1,42 @@
 h1 {
     color: var(--highlight-color);
     font-family: var(--font-sans);
+    font-size: 4rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bolder;
 }
 
-div {
-    color: var(--text-color2);
+.start-intro {
+    color: var(--text-color1);
     font-family: var(--font-mono);
+}
+
+.start-desc {
+    color: var(--text-color2);
+    font-family: var(--font-sans);
+}
+
+.start-wrapper {
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a {
+    color: var(--highlight-color);
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 1.25rem 1.75rem;
+    line-height: 1;
+    text-decoration: none;
+    margin-top: 100px;
+    font-family: var(--font-sans);
+}
+
+.button {
+    margin-top: 50px;
+    width: 250px;
 }
