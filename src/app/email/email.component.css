@@ -26,8 +26,10 @@ a {
     writing-mode: vertical-lr;
     color: var(--text-color2);
     text-decoration: none;
+    transition: 0.5s;
 }
 
 a:hover  {
     transform: translateY(-3px);
+    color: var(--text-color1);
 }
