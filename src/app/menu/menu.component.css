@@ -1,0 +1,11 @@
+li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: var(--text-color1);
+    font-family: var(--font-mono);
+    text-decoration: none;
+}
