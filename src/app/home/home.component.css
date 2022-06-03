@@ -15,6 +15,7 @@ h1 {
 .start-desc {
     color: var(--text-color2);
     font-family: var(--font-sans);
+    font-size: 1.2rem;
 }
 
 .start-wrapper {

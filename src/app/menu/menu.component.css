@@ -2,10 +2,27 @@ li {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: inline;
 }
 
 a {
     color: var(--text-color1);
     font-family: var(--font-mono);
     text-decoration: none;
+    display: inline;
+    padding: 20px;
+    font-weight: lighter;
 }
+
+.menu-wrapper {
+    float: right;
+}
+
+.logo-wrapper {
+    float: left;
+    margin: 20px;
+    background-color: darkslategrey;
+    width: 50px;
+    height: 50px;
+}
+
