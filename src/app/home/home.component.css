@@ -31,7 +31,7 @@ a {
     border: 1px solid;
     border-radius: 4px;
     padding: 1.25rem 1.75rem;
-    line-height: 1;
+    line-height: 1.5;
     text-decoration: none;
     margin-top: 100px;
     font-family: var(--font-sans);
@@ -40,4 +40,9 @@ a {
 .button {
     margin-top: 50px;
     width: 250px;
+    
+}
+
+.email-link {
+    padding: 10px;
 }
