@@ -1,0 +1,37 @@
+
+a {
+    color: var(--text-color2);
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: 0.5s;
+    font-size: x-large;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 0px;
+ }
+
+ .wrapper {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+ }
+
+ .wrapper::after {
+    content: '';
+    display: block;
+    width: 1px;
+    height: 90px;
+    margin: 0px;
+    margin-left: 35px;
+    background-color: var(--text-color2);
+  }
+
+  a:hover  {
+    transform: translateY(-5px);
+    color: var(--text-color1);
+}

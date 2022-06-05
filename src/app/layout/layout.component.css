@@ -6,3 +6,10 @@
     bottom: 0;
     right: 0;
 }
+
+.socials {
+    margin-left: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}

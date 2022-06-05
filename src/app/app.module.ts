@@ -7,6 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { EmailComponent } from './email/email.component';
 import { LayoutComponent } from './layout/layout.component';
 import { MenuComponent } from './menu/menu.component';
+import { SocialsComponent } from './socials/socials.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { MenuComponent } from './menu/menu.component';
     HomeComponent,
     EmailComponent,
     LayoutComponent,
-    MenuComponent
+    MenuComponent,
+    SocialsComponent
   ],
   imports: [
     BrowserModule,
