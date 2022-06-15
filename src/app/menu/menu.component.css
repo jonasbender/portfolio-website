@@ -11,30 +11,27 @@ a {
     text-decoration: none;
     display: inline;
     padding: 20px;
-    font-weight: lighter;
+    font-weight: normal;
 }
 
 .menu-wrapper {
     float: right;
     margin-right: 40px;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 .logo-wrapper {
     float: left;
-    margin: 20px;
+    margin: 10px;
     margin-left: 40px;
 }
 
 .resume{
-    color: var(--highlight-color);
-    border: 1px solid;
-    border-radius: 4px;
-    padding-bottom: 0.4rem;
-    padding-top: 0.6rem;
-    padding-right: 1.0rem;
-    padding-left: 1.0rem;
-    line-height: 1.0s;
+    color: var(--text-color1);
+    background-color: var(--highlight-color);
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    
     text-decoration: none;
     margin-top: 100px;
     font-family: var(--font-sans);
@@ -42,5 +39,10 @@ a {
 }
 
 img {
-    width: 50px;
+    height: 60px;
+}
+
+.wrapper {
+    background-color: var(--bg-01);
+    height: 80px;
 }

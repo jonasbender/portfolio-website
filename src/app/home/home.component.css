@@ -9,13 +9,15 @@ h1 {
 
 .start-intro {
     color: var(--text-color1);
-    font-family: var(--font-mono);
+    font-family: var(--font-sans);
+    font-size: 1.2rem;
 }
 
 .start-desc {
-    color: var(--text-color2);
+    color: var(--text-color1);
     font-family: var(--font-sans);
     font-size: 1.2rem;
+    font-weight: 300;
 }
 
 .start-wrapper {
@@ -24,17 +26,19 @@ h1 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    margin: auto;
 }
 
 a {
-    color: var(--highlight-color);
-    border: 1px solid;
-    border-radius: 4px;
+    color: var(--text-color1);
+    background-color: var(--highlight-color);
+    /* border-radius: 4px; */ 
     padding: 1.25rem 1.75rem;
     line-height: 1.5;
     text-decoration: none;
     margin-top: 100px;
     font-family: var(--font-sans);
+
 }
 
 .button {
@@ -46,3 +50,7 @@ a {
 .email-link {
     padding: 10px;
 }
+
+
+
+

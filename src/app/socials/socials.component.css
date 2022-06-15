@@ -8,6 +8,8 @@ a {
     font-size: x-large;
 }
 
+
+
 ul {
     list-style-type: none;
     margin-left: 0px;
@@ -32,6 +34,21 @@ ul {
   }
 
   a:hover  {
+    transform: translateY(-5px);
+    color: var(--text-color1);
+}
+
+svg {
+    color: var(--text-color2);
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: 0.5s;
+    font-size: x-large;
+    padding: 5px;
+}
+
+svg:hover {
     transform: translateY(-5px);
     color: var(--text-color1);
 }

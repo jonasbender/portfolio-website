@@ -3,10 +3,8 @@ body {
     --text-color1: #F4F4F4;
     --bkg-color: #262626;
     --text-color2: #8D8D8D;
-    --highlight-color: #B0CCFF;
-    --scroll-bkg: #fafafa;
-    --scroll-acc: #c1c1c1;
-    --scroll-hov: #7d7d7d;
+    --highlight-color:  #0f62fe;
+    --bg-01: #393939;
 
     --font-mono: 'Courier New', Courier, monospace;
     --font-sans: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif; 
