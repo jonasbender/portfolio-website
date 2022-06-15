@@ -43,6 +43,6 @@ img {
 }
 
 .wrapper {
-    background-color: var(--bg-01);
+    background-color: var(--bkg-color);
     height: 80px;
 }
