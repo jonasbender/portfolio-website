@@ -1,8 +1,4 @@
-app-menu {
-    width: 100%;
-    position: fixed;
-    top: 0;
-}
+
 
 .email {
     margin-right: 40px;
@@ -29,6 +25,9 @@ app-menu {
     position: relative;
 }
 
+
+
 html {
     height: 100vh
 }
+
